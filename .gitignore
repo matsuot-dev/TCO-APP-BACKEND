@@ -1,0 +1,34 @@
+# Pythonが生成するキャッシュや一時ファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pipでインストールされるパッケージ
+venv/
+env/
+.venv/
+
+# 環境変数や秘密情報
+.env
+.env.local
+config.json  # 設定ファイル（必要なら手動管理）
+
+# ログファイル
+logs/
+*.log
+*.out
+
+# ---- ビルド & デプロイ関連 ----
+# Pythonパッケージ化時のビルドファイル
+dist/
+build/
+*.egg-info/
+
+# ---- IDE & エディタの設定 ----
+# VS Code
+.vscode/
+
+# OS依存ファイル
+.DS_Store
+Thumbs.db
