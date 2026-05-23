@@ -25,10 +25,6 @@ dist/
 build/
 *.egg-info/
 
-# ---- IDE & エディタの設定 ----
-# VS Code
-.vscode/
-
 # OS依存ファイル
 .DS_Store
 Thumbs.db
